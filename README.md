@@ -1,36 +1,69 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Next.js Barebones Starter
 
-## Getting Started
+A minimal, production-ready **Next.js** starter to accelerate your projects.  
+Comes pre-configured with performance best practices, streamlined tooling, and a clear file structure — perfect for rapid prototyping or scaling into full products.
 
-First, run the development server:
+## 🚀 Features
 
-```bash
+- Latest **Next.js** version
+- Optimized static and dynamic routing
+- Minimal dependencies, fast startup
+- Environment variable support with `.env.local`
+- Clean and simple development workflow
+
+## 🧩 Getting Started
+
+Clone the repository and install dependencies:
+```
+git clone https://github.com/coder001000-lang/
+next-boilerplate
+cd your-nextjs-repo
+npm install
+```
+Run the development server:
+```
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Open [http://localhost:3000](http://localhost:3000) to start building.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## ⚙️ Scripts
 
-## Learn More
+| Command         | Description                        |
+| --------------- | ---------------------------------- |
+| `npm run dev`   | Start the local development server |
+| `npm run build` | Build the app for production       |
+| `npm start`     | Run the Sproduction build          |
 
-To learn more about Next.js, take a look at the following resources:
+## 📁 File Structure
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+next.js-boilerplate/
+├── .env.local
+├── .gitignore
+├── .prettierrc
+├── next-env.d.ts
+├── next.config.ts
+├── package-lock.json
+├── package.json
+├── postcss.config.mjs
+├── README.md
+├── tsconfig.json
+├── .next/
+├── node_modules/
+├── app/
+│   ├── globals.css
+│   ├── layout.tsx
+│   ├── page.tsx
+│   ├── components/
+│   └── lib/
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🧰 Customization
 
-## Deploy on Vercel
+- Add new components under `components/`
+- Update global styles in `styles/globals.css`
+- Define environment variables in `.env.local`
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📜 License
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is licensed under the **MIT License**.
