@@ -1,8 +1,8 @@
-
+'use client'
 
 export default function Home() {
   return (
-    <div className="flex flex-col min-h-screen items-center">
+    <div className="flex flex-1 min-h-screen justify-center align">
       Home
     </div>
   );
