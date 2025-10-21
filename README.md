@@ -36,33 +36,6 @@ Open [http://localhost:3000](http://localhost:3000) to start building.
 | `npm run build` | Build the app for production       |
 | `npm start`     | Run the Sproduction build          |
 
-## 📁 File Structure
-
-next.js-boilerplate/
-├── .env.local
-├── .gitignore
-├── .prettierrc
-├── next-env.d.ts
-├── next.config.ts
-├── package-lock.json
-├── package.json
-├── postcss.config.mjs
-├── README.md
-├── tsconfig.json
-├── .next/
-├── node_modules/
-├── app/
-│   ├── globals.css
-│   ├── layout.tsx
-│   ├── page.tsx
-│   ├── components/
-│   └── lib/
-
-## 🧰 Customization
-
-- Add new components under `components/`
-- Update global styles in `styles/globals.css`
-- Define environment variables in `.env.local`
 
 ## 📜 License
 
